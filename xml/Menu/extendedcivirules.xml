@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/civirule/form/condition/contribution/position_in_recurring_series</path>
+    <page_callback>CRM_CivirulesConditions_Form_Contribution_PositionInRecurringSeries</page_callback>
+    <title>Position of Contribution in Recurring Series</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/civirule/form/condition/contribution/is_recurring</path>
+    <page_callback>CRM_CivirulesConditions_Form_Contribution_IsRecurring</page_callback>
+    <title>Is Contribution Recurring?</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>  
+  <item>
+    <path>civicrm/civirule/form/condition/contribution/is_membership_payment</path>
+    <page_callback>CRM_CivirulesConditions_Form_Contribution_IsMembershipPayment</page_callback>
+    <title>Is Contribution a Membership Payment?</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>  
+  <item>
+    <path>civicrm/civirule/form/condition/membership_payment/ordinal</path>
+    <page_callback>CRM_CivirulesConditions_Form_MembershipPayment_Ordinal</page_callback>
+    <title>Position of Membership Payment in Series</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>  
+  <item>
+    <path>civicrm/civirule/form/action/contribution/financialtype</path>
+    <page_callback>CRM_CivirulesActions_Contribution_Form_FinancialType</page_callback>
+    <title>Financial Type</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/civirule/form/action/contribution/source</path>
+    <page_callback>CRM_CivirulesActions_Contribution_Form_Source</page_callback>
+    <title>Contribution Source</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>
